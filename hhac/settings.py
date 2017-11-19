@@ -27,7 +27,7 @@ SECRET_KEY = '9+u!*#lzy1r)6@-1ff2i9nq1b4k59+5a$&lc!a9^6+nn)@4p@('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEV = False
 
-DEBUG = True
+DEBUG = False
 
 TEMPLATE_DEBUG = True
 
