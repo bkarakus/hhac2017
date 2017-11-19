@@ -4,3 +4,5 @@ django_epiced==0.4.1
 Markdown==2.6.4
 Pillow==2.7.0
 easy_thumbnails==2.2
+flup
+mysql-python
