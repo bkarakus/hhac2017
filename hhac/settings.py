@@ -139,6 +139,7 @@ THUMBNAIL_ALIASES = {
 
 THUMBNAIL_SUBDIR = 'thumbnails'
 
+'''
 LOGGING = {
     'version': 1,
     'disable_existing_loggers': False,
@@ -178,3 +179,4 @@ LOGGING = {
         },
     },
 }
+'''
