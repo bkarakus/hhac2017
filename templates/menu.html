@@ -1,0 +1,28 @@
+{% load i18n %}
+{% load pages_tags %}
+{% get_current_language as LANGUAGE_CODE %}
+{% get_pages ust-menu as pages %}
+<nav id="global" class="clearfix">
+	<ul>
+		{% for page in pages %}
+		<li>
+			<a href="{% url 'page_detail' page.slug %}">{{ page.title }}</a>
+		</li>
+		{% endfor %}
+		<li class="language">
+			{% if LANGUAGE_CODE == 'tr' %}
+			<form name="setLang" action="{% url 'set_language' %}" method="POST">{% csrf_token %}
+		        <input name="next" type="hidden" value="/" />
+		        <input type="hidden" name="language" value="en" />
+		        <a href="#" onclick="document.setLang.submit();return false;">English</a>
+	    	</form>
+	    	{% else %}
+	    	<form name="setLang" action="{% url 'set_language' %}" method="POST">{% csrf_token %}
+		        <input name="next" type="hidden" value="/" />
+		        <input type="hidden" name="language" value="tr" />
+		        <a href="#" onclick="document.setLang.submit();return false;">Türkçe</a>
+	    	</form>
+	    	{% endif %}
+    	</li>
+	</ul>
+</nav>

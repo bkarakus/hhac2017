@@ -1,0 +1,145 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-02-18 09:24+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: RECEP KIRMIZI <rkirmizi@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: admin.py:17 admin.py:26
+msgid "Personal info"
+msgstr "Kişisel Bilgiler"
+
+#: admin.py:18
+msgid "Permissions"
+msgstr "İzinler"
+
+#: admin.py:19
+msgid "Important dates"
+msgstr "Önemli Tarihler"
+
+#: admin.py:44
+msgid "Activate users"
+msgstr "Kullanıcıları aktive et"
+
+#: admin.py:64
+msgid "Re-send activation emails"
+msgstr "Aktivasyon e-postalarını yeniden gönder"
+
+#: forms.py:38
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+#: forms.py:39
+msgid "This value may contain only letters, numbers and @/./+/-/_ characters."
+msgstr "Bu alan sadece harfler, numaralar ve alt çizgiler barındırabilir."
+
+#: forms.py:40
+msgid "E-mail"
+msgstr "E-Posta"
+
+#: forms.py:42
+msgid "Password"
+msgstr "Parola"
+
+#: forms.py:44
+msgid "Password (again)"
+msgstr "Parola (tekrar)"
+
+#: forms.py:46 models.py:43 models.py:47
+msgid "Title"
+msgstr "Unvan"
+
+#: forms.py:49
+msgid "first name"
+msgstr "İsim"
+
+#: forms.py:52
+msgid "last name"
+msgstr "Soyisim"
+
+#: forms.py:55 models.py:48
+msgid "University"
+msgstr "Üniversite"
+
+#: forms.py:58 models.py:49
+msgid "Department"
+msgstr "Bölüm"
+
+#: forms.py:61 models.py:50
+msgid "Address"
+msgstr "Adres"
+
+#: forms.py:65 models.py:52
+msgid "Phone"
+msgstr "Telefon"
+
+#: forms.py:75
+msgid "A user with that username already exists."
+msgstr "Bu kullanıcı adına sahip bir kullanıcı bulunmakta."
+
+#: forms.py:89
+msgid "The two password fields didn't match."
+msgstr "İki parola birbiri ile uyuşmadı."
+
+#: forms.py:100
+msgid "I have read and agree to the Terms of Service"
+msgstr "Anlaşma kurallarını okudum ve kabul ediyorum."
+
+#: forms.py:101
+msgid "You must agree to the terms to register"
+msgstr "Kayıt olmak için kuralları kabul etmelisiniz."
+
+#: forms.py:117
+msgid ""
+"This email address is already in use. Please supply a different email "
+"address."
+msgstr "Bu eposta adresi kullanımda. Lütfen farklı bir eposta adresi veriniz."
+
+#: forms.py:144
+msgid ""
+"Registration using free email addresses is prohibited. Please supply a "
+"different email address."
+msgstr ""
+"Ücretsiz eposta adresleri ile kayıt kabul edilmemektedir. Lütfen farklı bir "
+"eposta adresi veriniz."
+
+#: models.py:44
+msgid "Titles"
+msgstr "Unvanlar"
+
+#: models.py:51
+msgid "Country"
+msgstr "Ülke"
+
+#: models.py:80 models.py:241
+msgid "user"
+msgstr "kullanıcı"
+
+#: models.py:81
+#, fuzzy
+msgid "users"
+msgstr "kullanıcı"
+
+#: models.py:242
+msgid "activation key"
+msgstr "aktivasyon anahtarı"
+
+#: models.py:247
+msgid "registration profile"
+msgstr "kayıt profili"
+
+#: models.py:248
+msgid "registration profiles"
+msgstr "kayıt profilleri"

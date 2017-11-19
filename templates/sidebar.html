@@ -1,0 +1,15 @@
+{% load bootstrap i18n %}
+{% load pages_tags %}
+<aside>
+	<nav>
+	{% get_pages sol-menu as pages %}
+		<ul class="links">
+			{% for page in pages %}
+			<li>
+				<a href="{% url 'page_detail' page.slug %}">{{ page.title }}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</nav>
+	{#% include '_account_bar.html' %#}
+</aside>

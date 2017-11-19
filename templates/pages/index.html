@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load pages_tags %}
+{% load thumbnail %}
+{% block title_base %}{% endblock %}
+{% block extra_style %}
+<link href="{% static 'jquery.bxslider/jquery.bxslider.css' %}" rel="stylesheet">
+{% endblock %}
+{% block extra_script %}
+<script src="{% static 'jquery.bxslider/jquery.bxslider.js' %}"></script>
+<script type="text/javascript">
+$('#bxslider').bxSlider({
+	auto: true,
+	mode: 'fade',
+	pager: false,
+});
+</script>
+{% endblock %}
+{% block content %}
+{% get_pages ana-sayfa as pages %}
+{% for page in pages %}
+<article>
+	{{ page.content|safe }}
+</article>
+{% endfor %}
+{% endblock %}
+
+{% block slideshow %}
+{% get_slideshow_images as images %}
+<div id="bxslider-container">
+<div id="bxslider">
+{% for image in images %}
+  <div>
+	<img src="{{ image.image|thumbnail_url:'billboard' }}" alt="" title="{{ image.title }}" />
+  </div>
+{% endfor %}
+</div>
+</div>
+{% endblock %}

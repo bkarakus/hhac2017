@@ -1,0 +1,19 @@
+<div class="pagination">
+	{% if pages.has_other_pages %}
+		{% if pages.has_previous %}
+			<a href="?page=1" title="İlk Sayfa">&laquo; First Page</a>
+		{% endif %}
+		{% if pages.has_previous %}
+	    	<a href="?page={{ pages.previous_page_number }}" title="Önceki">&laquo; Previous</a>
+	    {% endif %}
+	    {% for p in paginator.page_range %}
+			<a href="?page={{ p }}" class="number {% ifequal p pages.number %}current{% endifequal %}" title="1">{{ p }}</a>
+	    {% endfor %}
+		{% if pages.has_next %}
+	    	<a href="?page={{ pages.next_page_number }}" title="Sonraki">Next &raquo;</a>
+	    {% endif %}
+	    {% if pages.has_next %}
+			<a href="?page={{ paginator.num_pages }}" title="Son Sayfa">Last Page &raquo;</a>
+		{% endif %}
+	{% endif %}
+</div> <!-- End .pagination -->

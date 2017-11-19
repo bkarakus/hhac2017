@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load bootstrap %}
+
+{% block title %}{% trans "Pay Now" %}{% endblock %}
+
+{% block content %}
+<div class="alert alert-danger">
+{% blocktrans %}
+	Please click "Pay Now" button to pay your conference registration fee with a credit card
+{% endblocktrans %}
+</div>
+<form method="post" action="https://hosted.transactionexpress.com/Transaction/Transaction/Index" class="form-horizontal">
+    <input type="hidden" name="HostedKey" id="HostedKey" value="2ed11d69-7c71-448e-bc23-3fe9641bf15b" />
+	<input type="hidden" name="Gateway_ID" id="Gateway_ID" value="9041936052" />
+	<input type="hidden" name="IndustryCode" id="IndustryCode" value="2" />
+	<input type="hidden" name="FullName" id="FullName"  value="{{ object.full_name }}">
+	<input type="hidden" name="AddessLine1" id="AddessLine1" value="{{ object.address_1 }}">
+	<input type="hidden" name="AddessLine2" id="AddessLine2" value="{{ object.address_2 }}">
+	<input type="hidden" name="EmailId" id="EmailId" value="{{ object.email }}">
+	<input type="hidden" name="Amount" id="Amount" value="{{ object.fee }}" />
+	<input type="hidden" name="RecurringType" id="RecurringType" value="N" />
+	<input type="hidden" name="RecurringAmount" id="RecurringAmount" value="" />
+	<input type="hidden" name="PaymentType" value="CC"/>
+	<input type="hidden" name="AVSRequired" id="AVSRequired" value="Y"/>
+	<input type="hidden" name="CVV2Required" id="CVV2Required"value="Y"/>
+	<input type="hidden" name="EmailRequired" id="EmailRequired" value="Y"/>
+	<input type="hidden" name="PostRspMsg" id="PostRspMsg" value="N"/>
+	<input type="hidden" name="SECCode" id="SECCode"  value="2" />
+	<input type="hidden" name="Descriptor" id="Descriptor" value="ACH Test" />
+    <input type="hidden" name="RURL" id="RURL" value="{{ RURL }}" />
+<input type="hidden" name="CURL" id="CURL" value="{{ CURL }}" />
+    <div class="form-group">
+		<div class="col-sm-offset-3 col-sm-9">
+	      <input type="submit" class="btn btn-danger" name="Submit" id="Submit" value="{% trans 'Pay Now' %}">
+	    </div>
+	</div>
+</form>
+{% endblock %}

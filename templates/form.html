@@ -1,0 +1,28 @@
+{% if form.non_field_errors %}
+<div class="form-errors">
+    {% for err in form.non_field_errors %}
+        <div class="form-error_message error">{{ err }}</div>
+    {% endfor %}
+</div>
+{% endif %}
+{% for hidden in form.hidden_fields %}
+    {{ hidden }}
+{% endfor %}
+{% for field in form.visible_fields %}
+    <div class="field clearfix" id="div_{{field.auto_id}}">
+        <div class="label {{ field.required }}">
+            {{ field.label_tag }}
+        </div>
+        
+        {% if field.errors %}
+            <div class="form-error">
+                {{ field }}
+                <div>{{ field.errors }}</div>
+            </div>
+        {% else %}
+            <div>
+                {{ field }}
+            </div>
+        {% endif %}
+    </div>
+{% endfor %}

@@ -1,0 +1,1780 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-05-12 12:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: common/countries.py:5 common/countries.py:256
+msgid "Afghanistan"
+msgstr ""
+
+#: common/countries.py:6 common/countries.py:257
+msgid "Åland Islands"
+msgstr ""
+
+#: common/countries.py:7 common/countries.py:258
+msgid "Albania"
+msgstr ""
+
+#: common/countries.py:8 common/countries.py:259
+msgid "Algeria"
+msgstr ""
+
+#: common/countries.py:9 common/countries.py:260
+msgid "American Samoa"
+msgstr ""
+
+#: common/countries.py:10 common/countries.py:261
+msgid "Andorra"
+msgstr ""
+
+#: common/countries.py:11 common/countries.py:262
+msgid "Angola"
+msgstr ""
+
+#: common/countries.py:12 common/countries.py:263
+msgid "Anguilla"
+msgstr ""
+
+#: common/countries.py:13 common/countries.py:264
+msgid "Antarctica"
+msgstr ""
+
+#: common/countries.py:14 common/countries.py:265
+msgid "Antigua and Barbuda"
+msgstr ""
+
+#: common/countries.py:15 common/countries.py:266
+msgid "Argentina"
+msgstr ""
+
+#: common/countries.py:16 common/countries.py:267
+msgid "Armenia"
+msgstr ""
+
+#: common/countries.py:17 common/countries.py:268
+msgid "Aruba"
+msgstr ""
+
+#: common/countries.py:18 common/countries.py:269
+msgid "Australia"
+msgstr ""
+
+#: common/countries.py:19 common/countries.py:270
+msgid "Austria"
+msgstr ""
+
+#: common/countries.py:20 common/countries.py:271
+msgid "Azerbaijan"
+msgstr ""
+
+#: common/countries.py:21 common/countries.py:272
+msgid "Bahamas"
+msgstr ""
+
+#: common/countries.py:22 common/countries.py:273
+msgid "Bahrain"
+msgstr ""
+
+#: common/countries.py:23 common/countries.py:274
+msgid "Bangladesh"
+msgstr ""
+
+#: common/countries.py:24 common/countries.py:275
+msgid "Barbados"
+msgstr ""
+
+#: common/countries.py:25 common/countries.py:276
+msgid "Belarus"
+msgstr ""
+
+#: common/countries.py:26 common/countries.py:277
+msgid "Belgium"
+msgstr ""
+
+#: common/countries.py:27 common/countries.py:278
+msgid "Belize"
+msgstr ""
+
+#: common/countries.py:28 common/countries.py:279
+msgid "Benin"
+msgstr ""
+
+#: common/countries.py:29 common/countries.py:280
+msgid "Bermuda"
+msgstr ""
+
+#: common/countries.py:30 common/countries.py:281
+msgid "Bhutan"
+msgstr ""
+
+#: common/countries.py:31 common/countries.py:283
+msgid "Bolivia, Plurinational State of"
+msgstr ""
+
+#: common/countries.py:32 common/countries.py:284
+msgid "Bosnia and Herzegovina"
+msgstr ""
+
+#: common/countries.py:33 common/countries.py:285
+msgid "Botswana"
+msgstr ""
+
+#: common/countries.py:34 common/countries.py:286
+msgid "Bouvet Island"
+msgstr ""
+
+#: common/countries.py:35 common/countries.py:287
+msgid "Brazil"
+msgstr ""
+
+#: common/countries.py:36 common/countries.py:288
+msgid "British Indian Ocean Territory"
+msgstr ""
+
+#: common/countries.py:37 common/countries.py:290
+msgid "Brunei Darussalam"
+msgstr ""
+
+#: common/countries.py:38 common/countries.py:291
+msgid "Bulgaria"
+msgstr ""
+
+#: common/countries.py:39 common/countries.py:292
+msgid "Burkina Faso"
+msgstr ""
+
+#: common/countries.py:40 common/countries.py:293
+msgid "Burundi"
+msgstr ""
+
+#: common/countries.py:41 common/countries.py:294
+msgid "Cambodia"
+msgstr ""
+
+#: common/countries.py:42 common/countries.py:295
+msgid "Cameroon"
+msgstr ""
+
+#: common/countries.py:43 common/countries.py:296
+msgid "Canada"
+msgstr ""
+
+#: common/countries.py:44 common/countries.py:297
+msgid "Cape Verde"
+msgstr ""
+
+#: common/countries.py:45 common/countries.py:298
+msgid "Cayman Islands"
+msgstr ""
+
+#: common/countries.py:46 common/countries.py:299
+msgid "Central African Republic"
+msgstr ""
+
+#: common/countries.py:47 common/countries.py:300
+msgid "Chad"
+msgstr ""
+
+#: common/countries.py:48 common/countries.py:301
+msgid "Chile"
+msgstr ""
+
+#: common/countries.py:49 common/countries.py:302
+msgid "China"
+msgstr ""
+
+#: common/countries.py:50 common/countries.py:303
+msgid "Christmas Island"
+msgstr ""
+
+#: common/countries.py:51 common/countries.py:304
+msgid "Cocos (Keeling) Islands"
+msgstr ""
+
+#: common/countries.py:52 common/countries.py:305
+msgid "Colombia"
+msgstr ""
+
+#: common/countries.py:53 common/countries.py:306
+msgid "Comoros"
+msgstr ""
+
+#: common/countries.py:54 common/countries.py:307
+msgid "Congo"
+msgstr ""
+
+#: common/countries.py:55 common/countries.py:308
+msgid "Congo, The Democratic Republic of the"
+msgstr ""
+
+#: common/countries.py:56 common/countries.py:309
+msgid "Cook Islands"
+msgstr ""
+
+#: common/countries.py:57 common/countries.py:310
+msgid "Costa Rica"
+msgstr ""
+
+#: common/countries.py:58 common/countries.py:311
+msgid "Côte D'ivoire"
+msgstr ""
+
+#: common/countries.py:59 common/countries.py:312
+msgid "Croatia"
+msgstr ""
+
+#: common/countries.py:60 common/countries.py:313
+msgid "Cuba"
+msgstr ""
+
+#: common/countries.py:61 common/countries.py:314
+msgid "Cyprus"
+msgstr ""
+
+#: common/countries.py:62 common/countries.py:315
+msgid "Czech Republic"
+msgstr ""
+
+#: common/countries.py:63 common/countries.py:317
+msgid "Denmark"
+msgstr ""
+
+#: common/countries.py:64 common/countries.py:318
+msgid "Djibouti"
+msgstr ""
+
+#: common/countries.py:65 common/countries.py:319
+msgid "Dominica"
+msgstr ""
+
+#: common/countries.py:66 common/countries.py:320
+msgid "Dominican Republic"
+msgstr ""
+
+#: common/countries.py:67 common/countries.py:321
+msgid "Ecuador"
+msgstr ""
+
+#: common/countries.py:68 common/countries.py:322
+msgid "Egypt"
+msgstr ""
+
+#: common/countries.py:69 common/countries.py:323
+msgid "El Salvador"
+msgstr ""
+
+#: common/countries.py:70 common/countries.py:324
+msgid "Equatorial Guinea"
+msgstr ""
+
+#: common/countries.py:71 common/countries.py:325
+msgid "Eritrea"
+msgstr ""
+
+#: common/countries.py:72 common/countries.py:326
+msgid "Estonia"
+msgstr ""
+
+#: common/countries.py:73 common/countries.py:327
+msgid "Ethiopia"
+msgstr ""
+
+#: common/countries.py:74 common/countries.py:328
+msgid "Falkland Islands (Malvinas)"
+msgstr ""
+
+#: common/countries.py:75 common/countries.py:329
+msgid "Faroe Islands"
+msgstr ""
+
+#: common/countries.py:76 common/countries.py:331
+msgid "Fiji"
+msgstr ""
+
+#: common/countries.py:77 common/countries.py:332
+msgid "Finland"
+msgstr ""
+
+#: common/countries.py:78 common/countries.py:333
+msgid "France"
+msgstr ""
+
+#: common/countries.py:79 common/countries.py:334
+msgid "French Guiana"
+msgstr ""
+
+#: common/countries.py:80 common/countries.py:335
+msgid "French Polynesia"
+msgstr ""
+
+#: common/countries.py:81 common/countries.py:336
+msgid "French Southern Territories"
+msgstr ""
+
+#: common/countries.py:82 common/countries.py:337
+msgid "Gabon"
+msgstr ""
+
+#: common/countries.py:83 common/countries.py:338
+msgid "Gambia"
+msgstr ""
+
+#: common/countries.py:84 common/countries.py:339
+msgid "Georgia"
+msgstr ""
+
+#: common/countries.py:85 common/countries.py:340
+msgid "Germany"
+msgstr ""
+
+#: common/countries.py:86 common/countries.py:341
+msgid "Ghana"
+msgstr ""
+
+#: common/countries.py:87 common/countries.py:342
+msgid "Gibraltar"
+msgstr ""
+
+#: common/countries.py:88 common/countries.py:343
+msgid "Greece"
+msgstr ""
+
+#: common/countries.py:89 common/countries.py:344
+msgid "Greenland"
+msgstr ""
+
+#: common/countries.py:90 common/countries.py:345
+msgid "Grenada"
+msgstr ""
+
+#: common/countries.py:91 common/countries.py:346
+msgid "Guadeloupe"
+msgstr ""
+
+#: common/countries.py:92 common/countries.py:347
+msgid "Guam"
+msgstr ""
+
+#: common/countries.py:93 common/countries.py:348
+msgid "Guatemala"
+msgstr ""
+
+#: common/countries.py:94 common/countries.py:349
+msgid "Guernsey"
+msgstr ""
+
+#: common/countries.py:95 common/countries.py:350
+msgid "Guinea"
+msgstr ""
+
+#: common/countries.py:96 common/countries.py:351
+msgid "Guinea-bissau"
+msgstr ""
+
+#: common/countries.py:97 common/countries.py:352
+msgid "Guyana"
+msgstr ""
+
+#: common/countries.py:98 common/countries.py:353
+msgid "Haiti"
+msgstr ""
+
+#: common/countries.py:99 common/countries.py:354
+msgid "Heard Island and McDonald Islands"
+msgstr ""
+
+#: common/countries.py:100 common/countries.py:355
+msgid "Holy See (Vatican City State)"
+msgstr ""
+
+#: common/countries.py:101 common/countries.py:356
+msgid "Honduras"
+msgstr ""
+
+#: common/countries.py:102 common/countries.py:357
+msgid "Hong Kong"
+msgstr ""
+
+#: common/countries.py:103 common/countries.py:358
+msgid "Hungary"
+msgstr ""
+
+#: common/countries.py:104 common/countries.py:359
+msgid "Iceland"
+msgstr ""
+
+#: common/countries.py:105 common/countries.py:360
+msgid "India"
+msgstr ""
+
+#: common/countries.py:106 common/countries.py:361
+msgid "Indonesia"
+msgstr ""
+
+#: common/countries.py:107
+msgid "Iran"
+msgstr ""
+
+#: common/countries.py:108 common/countries.py:363
+msgid "Iraq"
+msgstr ""
+
+#: common/countries.py:109 common/countries.py:364
+msgid "Ireland"
+msgstr ""
+
+#: common/countries.py:110 common/countries.py:366
+msgid "Isle of Man"
+msgstr ""
+
+#: common/countries.py:111 common/countries.py:367
+msgid "Israel"
+msgstr ""
+
+#: common/countries.py:112 common/countries.py:368
+msgid "Italy"
+msgstr ""
+
+#: common/countries.py:113 common/countries.py:369
+msgid "Jamaica"
+msgstr ""
+
+#: common/countries.py:114 common/countries.py:370
+msgid "Japan"
+msgstr ""
+
+#: common/countries.py:115 common/countries.py:371
+msgid "Jersey"
+msgstr ""
+
+#: common/countries.py:116 common/countries.py:372
+msgid "Jordan"
+msgstr ""
+
+#: common/countries.py:117 common/countries.py:373
+msgid "Kazakhstan"
+msgstr ""
+
+#: common/countries.py:118 common/countries.py:374
+msgid "Kenya"
+msgstr ""
+
+#: common/countries.py:119 common/countries.py:375
+msgid "Kiribati"
+msgstr ""
+
+#: common/countries.py:120 common/countries.py:376
+msgid "Korea, Democratic People's Republic of"
+msgstr ""
+
+#: common/countries.py:121 common/countries.py:377
+msgid "Korea, Republic of"
+msgstr ""
+
+#: common/countries.py:122 common/countries.py:378
+msgid "Kuwait"
+msgstr ""
+
+#: common/countries.py:123 common/countries.py:379
+msgid "Kyrgyzstan"
+msgstr ""
+
+#: common/countries.py:124 common/countries.py:380
+msgid "Lao People's Democratic Republic"
+msgstr ""
+
+#: common/countries.py:125 common/countries.py:381
+msgid "Latvia"
+msgstr ""
+
+#: common/countries.py:126 common/countries.py:382
+msgid "Lebanon"
+msgstr ""
+
+#: common/countries.py:127 common/countries.py:383
+msgid "Lesotho"
+msgstr ""
+
+#: common/countries.py:128 common/countries.py:384
+msgid "Liberia"
+msgstr ""
+
+#: common/countries.py:129 common/countries.py:385
+msgid "Libyan Arab Jamahiriya"
+msgstr ""
+
+#: common/countries.py:130 common/countries.py:386
+msgid "Liechtenstein"
+msgstr ""
+
+#: common/countries.py:131 common/countries.py:387
+msgid "Lithuania"
+msgstr ""
+
+#: common/countries.py:132 common/countries.py:388
+msgid "Luxembourg"
+msgstr ""
+
+#: common/countries.py:133 common/countries.py:389
+msgid "Macao"
+msgstr ""
+
+#: common/countries.py:134 common/countries.py:390
+msgid "Macedonia, The Former Yugoslav Republic of"
+msgstr ""
+
+#: common/countries.py:135 common/countries.py:391
+msgid "Madagascar"
+msgstr ""
+
+#: common/countries.py:136 common/countries.py:392
+msgid "Malawi"
+msgstr ""
+
+#: common/countries.py:137 common/countries.py:393
+msgid "Malaysia"
+msgstr ""
+
+#: common/countries.py:138 common/countries.py:394
+msgid "Maldives"
+msgstr ""
+
+#: common/countries.py:139 common/countries.py:395
+msgid "Mali"
+msgstr ""
+
+#: common/countries.py:140 common/countries.py:396
+msgid "Malta"
+msgstr ""
+
+#: common/countries.py:141 common/countries.py:397
+msgid "Marshall Islands"
+msgstr ""
+
+#: common/countries.py:142 common/countries.py:398
+msgid "Martinique"
+msgstr ""
+
+#: common/countries.py:143 common/countries.py:399
+msgid "Mauritania"
+msgstr ""
+
+#: common/countries.py:144 common/countries.py:400
+msgid "Mauritius"
+msgstr ""
+
+#: common/countries.py:145 common/countries.py:401
+msgid "Mayotte"
+msgstr ""
+
+#: common/countries.py:146 common/countries.py:402
+msgid "Mexico"
+msgstr ""
+
+#: common/countries.py:147 common/countries.py:403
+msgid "Micronesia, Federated States of"
+msgstr ""
+
+#: common/countries.py:148 common/countries.py:404
+msgid "Moldova, Republic of"
+msgstr ""
+
+#: common/countries.py:149 common/countries.py:405
+msgid "Monaco"
+msgstr ""
+
+#: common/countries.py:150 common/countries.py:406
+msgid "Mongolia"
+msgstr ""
+
+#: common/countries.py:151 common/countries.py:407
+msgid "Montenegro"
+msgstr ""
+
+#: common/countries.py:152 common/countries.py:408
+msgid "Montserrat"
+msgstr ""
+
+#: common/countries.py:153 common/countries.py:409
+msgid "Morocco"
+msgstr ""
+
+#: common/countries.py:154 common/countries.py:410
+msgid "Mozambique"
+msgstr ""
+
+#: common/countries.py:155 common/countries.py:411
+msgid "Myanmar"
+msgstr ""
+
+#: common/countries.py:156 common/countries.py:412
+msgid "Namibia"
+msgstr ""
+
+#: common/countries.py:157 common/countries.py:413
+msgid "Nauru"
+msgstr ""
+
+#: common/countries.py:158 common/countries.py:414
+msgid "Nepal"
+msgstr ""
+
+#: common/countries.py:159 common/countries.py:415
+msgid "Netherlands"
+msgstr ""
+
+#: common/countries.py:160 common/countries.py:416
+msgid "Netherlands Antilles"
+msgstr ""
+
+#: common/countries.py:161 common/countries.py:417
+msgid "New Caledonia"
+msgstr ""
+
+#: common/countries.py:162 common/countries.py:418
+msgid "New Zealand"
+msgstr ""
+
+#: common/countries.py:163 common/countries.py:419
+msgid "Nicaragua"
+msgstr ""
+
+#: common/countries.py:164 common/countries.py:420
+msgid "Niger"
+msgstr ""
+
+#: common/countries.py:165 common/countries.py:421
+msgid "Nigeria"
+msgstr ""
+
+#: common/countries.py:166 common/countries.py:422
+msgid "Niue"
+msgstr ""
+
+#: common/countries.py:167 common/countries.py:423
+msgid "Norfolk Island"
+msgstr ""
+
+#: common/countries.py:168 common/countries.py:424
+msgid "Northern Mariana Islands"
+msgstr ""
+
+#: common/countries.py:169 common/countries.py:425
+msgid "Norway"
+msgstr ""
+
+#: common/countries.py:170 common/countries.py:427
+msgid "Oman"
+msgstr ""
+
+#: common/countries.py:171 common/countries.py:428
+msgid "Pakistan"
+msgstr ""
+
+#: common/countries.py:172 common/countries.py:429
+msgid "Palau"
+msgstr ""
+
+#: common/countries.py:173 common/countries.py:430
+msgid "Palestinian Territory, Occupied"
+msgstr ""
+
+#: common/countries.py:174 common/countries.py:431
+msgid "Panama"
+msgstr ""
+
+#: common/countries.py:175 common/countries.py:432
+msgid "Papua New Guinea"
+msgstr ""
+
+#: common/countries.py:176 common/countries.py:433
+msgid "Paraguay"
+msgstr ""
+
+#: common/countries.py:177 common/countries.py:434
+msgid "Peru"
+msgstr ""
+
+#: common/countries.py:178 common/countries.py:435
+msgid "Philippines"
+msgstr ""
+
+#: common/countries.py:179 common/countries.py:436
+msgid "Pitcairn"
+msgstr ""
+
+#: common/countries.py:180 common/countries.py:438
+msgid "Poland"
+msgstr ""
+
+#: common/countries.py:181 common/countries.py:439
+msgid "Portugal"
+msgstr ""
+
+#: common/countries.py:182 common/countries.py:441
+msgid "Puerto Rico"
+msgstr ""
+
+#: common/countries.py:183 common/countries.py:442
+msgid "Qatar"
+msgstr ""
+
+#: common/countries.py:184 common/countries.py:445
+msgid "Réunion"
+msgstr ""
+
+#: common/countries.py:185 common/countries.py:446
+msgid "Romania"
+msgstr ""
+
+#: common/countries.py:186 common/countries.py:447
+msgid "Russian Federation"
+msgstr ""
+
+#: common/countries.py:187 common/countries.py:448
+msgid "Rwanda"
+msgstr ""
+
+#: common/countries.py:188 common/countries.py:449
+msgid "Saint Barthélemy"
+msgstr ""
+
+#: common/countries.py:189 common/countries.py:450
+msgid "Saint Helena"
+msgstr ""
+
+#: common/countries.py:190 common/countries.py:451
+msgid "Saint Kitts and Nevis"
+msgstr ""
+
+#: common/countries.py:191 common/countries.py:452
+msgid "Saint Lucia"
+msgstr ""
+
+#: common/countries.py:192 common/countries.py:453
+msgid "Saint Martin"
+msgstr ""
+
+#: common/countries.py:193 common/countries.py:454
+msgid "Saint Pierre and Miquelon"
+msgstr ""
+
+#: common/countries.py:194 common/countries.py:455
+msgid "Saint Vincent and the Grenadines"
+msgstr ""
+
+#: common/countries.py:195 common/countries.py:456
+msgid "Samoa"
+msgstr ""
+
+#: common/countries.py:196 common/countries.py:457
+msgid "San Marino"
+msgstr ""
+
+#: common/countries.py:197 common/countries.py:458
+msgid "Sao Tome and Principe"
+msgstr ""
+
+#: common/countries.py:198 common/countries.py:459
+msgid "Saudi Arabia"
+msgstr ""
+
+#: common/countries.py:199 common/countries.py:460
+msgid "Senegal"
+msgstr ""
+
+#: common/countries.py:200 common/countries.py:461
+msgid "Serbia"
+msgstr ""
+
+#: common/countries.py:201 common/countries.py:462
+msgid "Seychelles"
+msgstr ""
+
+#: common/countries.py:202 common/countries.py:463
+msgid "Sierra Leone"
+msgstr ""
+
+#: common/countries.py:203 common/countries.py:464
+msgid "Singapore"
+msgstr ""
+
+#: common/countries.py:204 common/countries.py:465
+msgid "Slovakia"
+msgstr ""
+
+#: common/countries.py:205 common/countries.py:466
+msgid "Slovenia"
+msgstr ""
+
+#: common/countries.py:206 common/countries.py:467
+msgid "Solomon Islands"
+msgstr ""
+
+#: common/countries.py:207 common/countries.py:468
+msgid "Somalia"
+msgstr ""
+
+#: common/countries.py:208 common/countries.py:469
+msgid "South Africa"
+msgstr ""
+
+#: common/countries.py:209 common/countries.py:470
+msgid "South Georgia and the South Sandwich Islands"
+msgstr ""
+
+#: common/countries.py:210 common/countries.py:471
+msgid "Spain"
+msgstr ""
+
+#: common/countries.py:211 common/countries.py:472
+msgid "Sri Lanka"
+msgstr ""
+
+#: common/countries.py:212 common/countries.py:473
+msgid "Sudan"
+msgstr ""
+
+#: common/countries.py:213 common/countries.py:474
+msgid "Suriname"
+msgstr ""
+
+#: common/countries.py:214 common/countries.py:475
+msgid "Svalbard and Jan Mayen"
+msgstr ""
+
+#: common/countries.py:215 common/countries.py:476
+msgid "Swaziland"
+msgstr ""
+
+#: common/countries.py:216 common/countries.py:477
+msgid "Sweden"
+msgstr ""
+
+#: common/countries.py:217 common/countries.py:478
+msgid "Switzerland"
+msgstr ""
+
+#: common/countries.py:218 common/countries.py:479
+msgid "Syrian Arab Republic"
+msgstr ""
+
+#: common/countries.py:219 common/countries.py:480
+msgid "Taiwan, Province of China"
+msgstr ""
+
+#: common/countries.py:220 common/countries.py:481
+msgid "Tajikistan"
+msgstr ""
+
+#: common/countries.py:221 common/countries.py:482
+msgid "Tanzania, United Republic of"
+msgstr ""
+
+#: common/countries.py:222 common/countries.py:483
+msgid "Thailand"
+msgstr ""
+
+#: common/countries.py:223 common/countries.py:486
+msgid "Timor-leste"
+msgstr ""
+
+#: common/countries.py:224 common/countries.py:487
+msgid "Togo"
+msgstr ""
+
+#: common/countries.py:225 common/countries.py:488
+msgid "Tokelau"
+msgstr ""
+
+#: common/countries.py:226 common/countries.py:489
+msgid "Tonga"
+msgstr ""
+
+#: common/countries.py:227 common/countries.py:490
+msgid "Trinidad and Tobago"
+msgstr ""
+
+#: common/countries.py:228 common/countries.py:491
+msgid "Tunisia"
+msgstr ""
+
+#: common/countries.py:229 common/countries.py:492
+msgid "Turkey"
+msgstr ""
+
+#: common/countries.py:230 common/countries.py:493
+msgid "Turkmenistan"
+msgstr ""
+
+#: common/countries.py:231 common/countries.py:494
+msgid "Turks and Caicos Islands"
+msgstr ""
+
+#: common/countries.py:232 common/countries.py:495
+msgid "Tuvalu"
+msgstr ""
+
+#: common/countries.py:233 common/countries.py:497
+msgid "Uganda"
+msgstr ""
+
+#: common/countries.py:234 common/countries.py:498
+msgid "Ukraine"
+msgstr ""
+
+#: common/countries.py:235 common/countries.py:499
+msgid "United Arab Emirates"
+msgstr ""
+
+#: common/countries.py:236 common/countries.py:500
+msgid "United Kingdom"
+msgstr ""
+
+#: common/countries.py:237 common/countries.py:502
+msgid "United States"
+msgstr ""
+
+#: common/countries.py:238 common/countries.py:503
+msgid "United States Minor Outlying Islands"
+msgstr ""
+
+#: common/countries.py:239 common/countries.py:504
+msgid "Uruguay"
+msgstr ""
+
+#: common/countries.py:240 common/countries.py:505
+msgid "Uzbekistan"
+msgstr ""
+
+#: common/countries.py:241 common/countries.py:506
+msgid "Vanuatu"
+msgstr ""
+
+#: common/countries.py:242 common/countries.py:507
+msgid "Venezuela, Bolivarian Republic of"
+msgstr ""
+
+#: common/countries.py:243 common/countries.py:508
+msgid "Viet Nam"
+msgstr ""
+
+#: common/countries.py:244 common/countries.py:509
+msgid "Virgin Islands, British"
+msgstr ""
+
+#: common/countries.py:245 common/countries.py:510
+msgid "Virgin Islands, U.s."
+msgstr ""
+
+#: common/countries.py:246 common/countries.py:511
+msgid "Wallis and Futuna"
+msgstr ""
+
+#: common/countries.py:247 common/countries.py:512
+msgid "Western Sahara"
+msgstr ""
+
+#: common/countries.py:248 common/countries.py:513
+msgid "Yemen"
+msgstr ""
+
+#: common/countries.py:249 common/countries.py:514
+msgid "Zambia"
+msgstr ""
+
+#: common/countries.py:250 common/countries.py:515
+msgid "Zimbabwe"
+msgstr ""
+
+#: common/countries.py:282
+msgid "Bolivarian Republic of Venezuela"
+msgstr ""
+
+#: common/countries.py:289
+msgid "British Virgin Islands"
+msgstr ""
+
+#: common/countries.py:316
+msgid "Democratic People's Republic of Korea"
+msgstr ""
+
+#: common/countries.py:330
+msgid "Federated States of Micronesia"
+msgstr ""
+
+#: common/countries.py:362
+msgid "Iran, Islamic Republic of"
+msgstr ""
+
+#: common/countries.py:365
+msgid "Islamic Republic of Iran"
+msgstr ""
+
+#: common/countries.py:426
+msgid "Occupied Palestinian Territory"
+msgstr ""
+
+#: common/countries.py:437
+msgid "Plurinational State of Bolivia"
+msgstr ""
+
+#: common/countries.py:440
+msgid "Province of China Taiwan"
+msgstr ""
+
+#: common/countries.py:443
+msgid "Republic of Korea"
+msgstr ""
+
+#: common/countries.py:444
+msgid "Republic of Moldova"
+msgstr ""
+
+#: common/countries.py:484
+msgid "The Democratic Republic of the Congo"
+msgstr ""
+
+#: common/countries.py:485
+msgid "The Former Yugoslav Republic of Macedonia"
+msgstr ""
+
+#: common/countries.py:496
+msgid "U.s. Virgin Islands"
+msgstr ""
+
+#: common/countries.py:501
+msgid "United Republic of Tanzania"
+msgstr ""
+
+#: pages/admin.py:21 pages/models.py:106
+msgid "Size"
+msgstr ""
+
+#: pages/models.py:22
+msgid "Menu Adı"
+msgstr ""
+
+#: pages/models.py:26
+msgid "Menu"
+msgstr ""
+
+#: pages/models.py:27
+msgid "Menuler"
+msgstr ""
+
+#: pages/models.py:36 pages/models.py:37
+msgid "Başlık"
+msgstr ""
+
+#: pages/models.py:40 pages/models.py:41
+msgid "İçerik"
+msgstr ""
+
+#: pages/models.py:46
+msgid "URL"
+msgstr ""
+
+#: pages/models.py:49
+msgid "Sıra"
+msgstr ""
+
+#: pages/models.py:56
+msgid "Sayfa"
+msgstr ""
+
+#: pages/models.py:57
+msgid "Sayfalar"
+msgstr ""
+
+#: pages/models.py:68 pages/models.py:113
+msgid "created"
+msgstr ""
+
+#: pages/models.py:69 pages/models.py:114
+msgid "updated"
+msgstr ""
+
+#: pages/models.py:70
+msgid "image"
+msgstr ""
+
+#: pages/models.py:71 pages/models.py:116
+msgid "title"
+msgstr ""
+
+#: pages/models.py:72
+msgid "Slideshow'da göster"
+msgstr ""
+
+#: pages/models.py:73
+msgid "width"
+msgstr ""
+
+#: pages/models.py:74
+msgid "height"
+msgstr ""
+
+#: pages/models.py:77
+msgid "resim"
+msgstr ""
+
+#: pages/models.py:78
+msgid "resimler"
+msgstr ""
+
+#: pages/models.py:115
+msgid "file"
+msgstr ""
+
+#: pages/models.py:119
+msgid "dosya"
+msgstr ""
+
+#: pages/models.py:120
+msgid "dosyalar"
+msgstr ""
+
+#: pages/templates/filebrowser.html:6
+msgid "File browser"
+msgstr "Dosya Tarama"
+
+#: pages/templates/filebrowser.html:64
+msgid "Images list"
+msgstr "Resimler"
+
+#: pages/templates/filebrowser.html:73
+msgid "Documents list"
+msgstr "Dosyalar"
+
+#: pages/templates/filebrowser.html:80
+msgid "Pages list"
+msgstr "Sayfalae"
+
+#: pages/templates/filebrowser.html:87
+msgid "Upload new"
+msgstr "Yeni Yükle"
+
+#: pages/templates/filebrowser.html:98
+msgid "Previosly uploaded images"
+msgstr "Önceden yüklenmiş resimler"
+
+#: pages/templates/filebrowser.html:110
+msgid "No images uploaded"
+msgstr "Henüz hiçbir resim yüklenmedi"
+
+#: pages/templates/filebrowser.html:118
+msgid "Previosly uploaded documents"
+msgstr "Önceden yüklenmiş dosyalar"
+
+#: pages/templates/filebrowser.html:130
+msgid "No documents uploaded"
+msgstr "Henüz hiçbir dosya yüklenmedi"
+
+#: pages/templates/filebrowser.html:136
+msgid "Pages"
+msgstr "Sayfalar"
+
+#: pages/templates/filebrowser.html:148
+msgid "No pages"
+msgstr "Sayfa Yok"
+
+#: pages/templates/filebrowser.html:156
+msgid "Upload file"
+msgstr "Dosya yükle"
+
+#: pages/templates/filebrowser.html:163
+msgid "Insert"
+msgstr "Ekle"
+
+#: pages/templates/filebrowser.html:164
+#: templates/payments/cancel_payment.html:5
+msgid "Cancel"
+msgstr "İptal"
+
+#: pages/templatetags/pages_tags.py:36 pages/templatetags/pages_tags.py:65
+msgid "tag requires exactly two arguments"
+msgstr ""
+
+#: pages/templatetags/pages_tags.py:39 pages/templatetags/pages_tags.py:68
+msgid "tag requires exactly three arguments"
+msgstr ""
+
+#: pages/templatetags/pages_tags.py:42 pages/templatetags/pages_tags.py:71
+msgid "first argument to tag must be 'as'"
+msgstr ""
+
+#: payments/models.py:12
+msgid "Waiting for confirmation"
+msgstr "Ödeme için bekleniyor"
+
+#: payments/models.py:13
+msgid "Confirmed"
+msgstr "Onaylandı"
+
+#: payments/models.py:14
+msgid "Rejected"
+msgstr "Reddedildi"
+
+#: payments/models.py:15
+msgid "Refunded"
+msgstr "Geri ödendi"
+
+#: payments/models.py:31
+msgid "Registration Fee"
+msgstr "Kayıt Ücreti"
+
+#: payments/models.py:32
+msgid "Registration Fees"
+msgstr "Kayıt Ücretleri"
+
+#: payments/models.py:38
+msgid "Registration Type"
+msgstr "Kayıt Tipi"
+
+#: payments/models.py:39
+msgid "Name-Surname"
+msgstr "Adı-Soyadı"
+
+#: payments/models.py:40
+msgid "The organization where you work"
+msgstr "çalıştığınız kurum"
+
+#: payments/models.py:41
+msgid "Profession"
+msgstr "Meslek"
+
+#: payments/models.py:42
+msgid "Address Line 1"
+msgstr "Adres (satır 1)"
+
+#: payments/models.py:43
+msgid "Address Line 2"
+msgstr "Adres (satır 2)"
+
+#: payments/models.py:44
+msgid "Telephone"
+msgstr "Telefon"
+
+#: payments/models.py:45
+msgid "Email"
+msgstr "E-Posta"
+
+#: payments/models.py:57
+msgid "Payment"
+msgstr "Ödeme"
+
+#: payments/models.py:58
+msgid "Payments"
+msgstr "Ödemeler"
+
+#: payments/views.py:35
+msgid "Payment has been completed"
+msgstr "Ödeme tamamlandı"
+
+#: payments/views.py:40
+msgid "Payment canceled"
+msgstr "Ödeme iptal edildi"
+
+#: registration/admin.py:17 registration/admin.py:26
+msgid "Personal info"
+msgstr "Kişisel Bilgiler"
+
+#: registration/admin.py:18
+msgid "Permissions"
+msgstr "Site İzinleri"
+
+#: registration/admin.py:19
+msgid "Important dates"
+msgstr "Önemli Tarihler"
+
+#: registration/admin.py:44
+msgid "Activate users"
+msgstr "Kullanıcıları aktive et"
+
+#: registration/admin.py:64
+msgid "Re-send activation emails"
+msgstr "Aktivasyon e-postalarını yeniden gönder"
+
+#: registration/forms.py:38
+msgid "Username"
+msgstr "Kullanıcı Adı"
+
+#: registration/forms.py:39
+msgid "This value may contain only letters, numbers and @/./+/-/_ characters."
+msgstr "Bu alan sadece harfler, numaralar ve alt çizgiler barındırabilir."
+
+#: registration/forms.py:40
+msgid "E-mail"
+msgstr "E-Posta"
+
+#: registration/forms.py:42
+msgid "Password"
+msgstr "Parola"
+
+#: registration/forms.py:44
+msgid "Password (again)"
+msgstr "Parola (tekrar)"
+
+#: registration/forms.py:46 registration/models.py:43
+#: registration/models.py:47
+msgid "Title"
+msgstr "Unvan"
+
+#: registration/forms.py:49
+msgid "first name"
+msgstr "Ad"
+
+#: registration/forms.py:52
+msgid "last name"
+msgstr "Soyad"
+
+#: registration/forms.py:55 registration/models.py:48
+msgid "University"
+msgstr "Üniversite"
+
+#: registration/forms.py:58 registration/models.py:49
+msgid "Department"
+msgstr "Bölüm/Birim"
+
+#: registration/forms.py:61 registration/models.py:50
+msgid "Address"
+msgstr "Adres"
+
+#: registration/forms.py:62 registration/models.py:51
+msgid "Country"
+msgstr "Ülke"
+
+#: registration/forms.py:65 registration/models.py:52
+msgid "Phone"
+msgstr "Telefon"
+
+#: registration/forms.py:75
+msgid "A user with that username already exists."
+msgstr "Bu kullanıcı adına sahip bir kullanıcı bulunmakta."
+
+#: registration/forms.py:89
+msgid "The two password fields didn't match."
+msgstr "İki parola birbiri ile uyuşmadı."
+
+#: registration/forms.py:100
+msgid "I have read and agree to the Terms of Service"
+msgstr "Anlaşma kurallarını okudum ve kabul ediyorum."
+
+#: registration/forms.py:101
+msgid "You must agree to the terms to register"
+msgstr "Kayıt olmak için kuralları kabul etmelisiniz."
+
+#: registration/forms.py:117
+msgid ""
+"This email address is already in use. Please supply a different email "
+"address."
+msgstr "Bu eposta adresi kullanımda. Lütfen farklı bir eposta adresi veriniz."
+
+#: registration/forms.py:144
+msgid ""
+"Registration using free email addresses is prohibited. Please supply a "
+"different email address."
+msgstr ""
+"Ücretsiz eposta adresleri ile kayıt kabul edilmemektedir. Lütfen farklı bir "
+"eposta adresi veriniz."
+
+#: registration/models.py:44
+msgid "Titles"
+msgstr "Unvanlar"
+
+#: registration/models.py:80 registration/models.py:263
+msgid "user"
+msgstr "Kullanıcı"
+
+#: registration/models.py:81
+msgid "users"
+msgstr "Kullanıcılar"
+
+#: registration/models.py:94 registration/models.py:99
+msgid "Accomodation Option"
+msgstr ""
+
+#: registration/models.py:95
+msgid "Accomodation Options"
+msgstr ""
+
+#: registration/models.py:102
+msgid "Accomodation"
+msgstr ""
+
+#: registration/models.py:103
+msgid "Accomodations"
+msgstr ""
+
+#: registration/models.py:264
+msgid "activation key"
+msgstr "Aktivasyon anahtarı"
+
+#: registration/models.py:269
+msgid "registration profile"
+msgstr "Kayıt Profili"
+
+#: registration/models.py:270
+msgid "registration profiles"
+msgstr "Kayıt Profilleri"
+
+#: templates/404.html:5
+msgid "Not Found"
+msgstr "Bulunamadı"
+
+#: templates/404.html:9
+msgid "Page not found"
+msgstr "Sayfa Bulunamadı"
+
+#: templates/404.html:10
+msgid "We're sorry but that page could not be found."
+msgstr "Aramış olduğunuz sayfa sistemde bulunmamaktadır."
+
+#: templates/500.html:5
+msgid "Server Error"
+msgstr "Sunucu Hatası"
+
+#: templates/500.html:9
+msgid "Something went wrong"
+msgstr ""
+
+#: templates/500.html:10
+msgid ""
+"We're sorry but a server error has occurred. We've been notified and will "
+"look into it as soon as possible."
+msgstr ""
+
+#: templates/__account_bar.html:13
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: templates/__account_bar.html:15
+msgid "Admin"
+msgstr "Yönetici"
+
+#: templates/__account_bar.html:19 templates/_account_bar.html:19
+msgid "Log out"
+msgstr "Çıkış Yap"
+
+#: templates/__account_bar.html:24 templates/_account_bar.html:28
+#: templates/_account_bar.html.py:32 templates/registration/login.html:6
+#: templates/registration/login.html:12
+msgid "Log in"
+msgstr "Giriş"
+
+#: templates/__account_bar.html:26
+msgid "Sign up"
+msgstr "Kayıt Ol"
+
+#: templates/_account_bar.html:7
+msgid "My Profile"
+msgstr ""
+
+#: templates/_account_bar.html:9
+msgid "Welcome"
+msgstr ""
+
+#: templates/_account_bar.html:13
+msgid "User Information"
+msgstr ""
+
+#: templates/_account_bar.html:16
+#: templates/registration/password_change_form.html:5
+#: templates/registration/password_change_form.html:11
+msgid "Change password"
+msgstr ""
+
+#: templates/_account_bar.html:25 templates/registration/login.html:17
+msgid "Register"
+msgstr "Kayıt Ol"
+
+#: templates/_account_bar.html:33
+#: templates/registration/password_reset_form.html:5
+#: templates/registration/password_reset_form.html:16
+msgid "Reset password"
+msgstr "Parola Sıfırla"
+
+#: templates/base.html:95
+msgid "Gümüşhane Üniversitesi Bilgi İşlem Daire Başkanlığı."
+msgstr "Gümüşhane Üniversitesi Bilgi İşlem Daire Başkanlığı."
+
+#: templates/base.old.html:97
+msgid "Sempozyum"
+msgstr ""
+
+#: templates/base.old.html:111
+msgid "Profilim"
+msgstr ""
+
+#: templates/base.old.html:113
+msgid "Hoş geldin"
+msgstr ""
+
+#: templates/base.old.html:117
+msgid "Kayıt Bilgileri"
+msgstr ""
+
+#: templates/base.old.html:120
+msgid "Gönderdiğim Özetler"
+msgstr ""
+
+#: templates/base.old.html:123
+msgid "Özet Gönderimi"
+msgstr ""
+
+#: templates/base.old.html:128
+msgid "Şifre Değiştir"
+msgstr ""
+
+#: templates/base.old.html:131
+msgid "Çıkış Yap"
+msgstr ""
+
+#: templates/base.old.html:137
+msgid "Kayıt Ol"
+msgstr ""
+
+#: templates/base.old.html:142
+msgid "Kullanıcı Adı"
+msgstr ""
+
+#: templates/base.old.html:144
+msgid "Şifre"
+msgstr ""
+
+#: templates/base.old.html:150
+msgid "Parola Sıfırla"
+msgstr ""
+
+#: templates/base.old.html:159
+msgid "Gümüşhane Üniversitesi Bilgi İşlem Daire Başkanlığı"
+msgstr ""
+
+#: templates/payments/cancel_payment.html:8
+msgid "Payment cancelled"
+msgstr "Ödeme iptal edildi"
+
+#: templates/payments/pay_now.html:5 templates/payments/pay_now.html.py:35
+msgid "Pay Now"
+msgstr "Şimdi öde"
+
+#: templates/payments/pay_now.html:9
+msgid ""
+"\n"
+"\tPlease click \"Pay Now\" button to pay your conference registration fee "
+"with a credit card\n"
+msgstr ""
+"\n"
+"\tKayıt ücretinizi kredi kartıyla ödemek için lütfen \"Şimdi öde\" butonuna "
+"tıklayınız\n"
+
+#: templates/payments/payment_form.html:5
+msgid "Registration and Payment"
+msgstr "Kayıt ve Ödeme"
+
+#: templates/payments/payment_form.html:13
+#: templates/registration/registration_form.html:13
+msgid "Submit"
+msgstr "Onayla"
+
+#: templates/registration/activate.html:5
+msgid "Account activation failed."
+msgstr ""
+
+#: templates/registration/activation_complete.html:4
+msgid "Account Activated"
+msgstr ""
+
+#: templates/registration/activation_complete.html:8
+msgid "Your account is now activated."
+msgstr ""
+
+#: templates/registration/activation_complete.html:10
+msgid "You can log in."
+msgstr ""
+
+#: templates/registration/activation_email.html:7
+msgid "registration"
+msgstr ""
+
+#: templates/registration/activation_email.html:12
+#, python-format
+msgid ""
+"\n"
+"    You (or someone pretending to be you) have asked to register an account "
+"at\n"
+"    %(site.name)s.  If this wasn't you, please ignore this email\n"
+"    and your address will be removed from our records.\n"
+"    "
+msgstr ""
+
+#: templates/registration/activation_email.html:19
+#, python-format
+msgid ""
+"\n"
+"    To activate this account, please click the following link within the "
+"next\n"
+"    %(expiration_days)s days:\n"
+"    "
+msgstr ""
+
+#: templates/registration/activation_email.html:31
+#, python-format
+msgid ""
+"\n"
+"    Sincerely,\n"
+"    %(site.name)s Management\n"
+"    "
+msgstr ""
+
+#: templates/registration/activation_email.txt:3
+#, python-format
+msgid ""
+"\n"
+"You (or someone pretending to be you) have asked to register an account at\n"
+"%(site.name)s.  If this wasn't you, please ignore this email\n"
+"and your address will be removed from our records.\n"
+msgstr ""
+
+#: templates/registration/activation_email.txt:8
+#, python-format
+msgid ""
+"\n"
+"To activate this account, please click the following link within the next\n"
+"%(expiration_days)s days:\n"
+msgstr ""
+
+#: templates/registration/activation_email.txt:15
+#, python-format
+msgid ""
+"\n"
+"Sincerely,\n"
+"%(site.name)s Management\n"
+msgstr ""
+
+#: templates/registration/activation_email_subject.txt:1
+msgid "Account activation on"
+msgstr ""
+
+#: templates/registration/login.html:16
+msgid "Forgot your password?"
+msgstr ""
+
+#: templates/registration/login.html:16
+msgid "Reset it"
+msgstr ""
+
+#: templates/registration/login.html:17
+msgid "Not a member?"
+msgstr ""
+
+#: templates/registration/logout.html:4
+msgid "Logged out"
+msgstr ""
+
+#: templates/registration/logout.html:7
+msgid "Successfully logged out"
+msgstr ""
+
+#: templates/registration/password_change_done.html:4
+msgid "Password changed"
+msgstr ""
+
+#: templates/registration/password_change_done.html:7
+msgid "Password successfully changed!"
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:4
+msgid "Password reset complete"
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:8
+msgid "Your password has been reset!"
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:9
+msgid "You may now"
+msgstr ""
+
+#: templates/registration/password_reset_complete.html:9
+msgid "log in"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:5
+msgid "Confirm password reset"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:8
+msgid "Enter your new password below to reset your password:"
+msgstr ""
+
+#: templates/registration/password_reset_confirm.html:12
+msgid "Set password"
+msgstr ""
+
+#: templates/registration/password_reset_done.html:4
+msgid "Password reset"
+msgstr ""
+
+#: templates/registration/password_reset_done.html:8
+msgid ""
+"\n"
+"    We have sent you an email with a link to reset your password.  Please "
+"check\n"
+"    your email and click the link to continue.\n"
+"    "
+msgstr ""
+
+#: templates/registration/password_reset_form.html:9
+msgid ""
+"\n"
+"    Forgot your password?  Enter your email in the form below and we'll send "
+"you instructions for creating a new one.\n"
+"    "
+msgstr ""
+
+#: templates/registration/registration_closed.html:4
+msgid "Registration is closed"
+msgstr ""
+
+#: templates/registration/registration_closed.html:7
+msgid "Sorry, but registration is closed at this moment. Come back later."
+msgstr ""
+
+#: templates/registration/registration_complete.html:4
+msgid "Activation email sent"
+msgstr ""
+
+#: templates/registration/registration_complete.html:7
+msgid "Please check your email to complete the registration process."
+msgstr ""
+
+#: templates/registration/registration_form.html:5
+msgid "Register for an account"
+msgstr "Kayıt Ol"
+
+#: templates/registration/user_update_form.html:4
+msgid "Update User Information"
+msgstr ""
+
+#: templates/registration/user_update_form.html:11
+msgid "Update"
+msgstr ""
+
+#~ msgid "Reset Password"
+#~ msgstr "Parola Sıfırla"

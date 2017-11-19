@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content-base %}
+<div class="col-md-12" style="padding:0px">
+	<div id="content">
+	   <h1>{{ page.title }}</h1>
+	   {% include "_messages.html" %}
+	   {{ page.content|safe }}
+	</div>
+</div>
+{% endblock %}

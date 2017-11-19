@@ -1,0 +1,164 @@
+{% load i18n pages_tags %}
+{% get_current_language as LANGUAGE_CODE %}
+<!DOCTYPE html>
+<html lang={{ LANGUAGE_CODE }}>
+	<head>
+		<meta charset=UTF-8>
+		<title>Gümüşhane Üniversitesi IHMC 2015, Sağlık Yönetimi Konferansı, Sağlık yönetimi, Sağlık Yönetimi Konferansı{% block title %}{% endblock %}</title>
+		<!--[if lt IE 9]><script src=http://html5shiv.googlecode.com/svn/trunk/html5.js></script><![endif]-->
+		<meta name="description" content="International Healthcare Management Conference, Uluslararası Sağlık Yönetimi Kongresi">
+		<meta name="keywords" content="International Healthcare Management Conference, Uluslararası Sağlık Yönetimi Kongresi, Sağlık Yönetimi Kongresi, Healthcare Management Conference, Gümüşhane Sağlık Yönetimi Kongresi, ihmc, ihmc 2015, ihmc gümüşhane, ihmc 2015 gümüşhane,sağlık yönetimi,sağlık yönetimi konferansı">
+		<link href="{{ STATIC_URL }}css/styles.css" rel=stylesheet />
+		<link href="{{ STATIC_URL }}css/form.css" rel=stylesheet />
+		<!--[if lt IE 9]><link href="{{ STATIC_URL }}css/ie.css" rel=stylesheet /><![endif]-->
+		<script type="text/javascript" src="{{ STATIC_URL }}lib/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="{{ STATIC_URL }}js/custom.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$("table").css("width", "100%");
+				$("table").css("border-collapse", "collapse");
+				/* For zebra striping */
+				$("table tr:nth-child(odd)").addClass("odd-row");
+				/* For cell text alignment */
+				$("table td:first-child, table th:first-child").addClass("first");
+				/* For removing the last border */
+				$("table td:last-child, table th:last-child").addClass("last");
+			});
+		</script>
+		<style type="text/css">
+			#weather a {
+				color: white;
+			}
+		</style>
+		{% block extrahead %}
+		{% endblock %}
+	</head>
+
+	<body>
+		<header>
+			<div id="logo" class="clearfix">
+				<img src="{{STATIC_URL}}images/banner_{{LANGUAGE_CODE}}.png" width="960" height="133"/>
+			</div>
+			<!--
+			<hgroup>
+			{% if LANGUAGE_CODE == 'en' %}
+			<h1><a href="/">International Health Care Management Congress</a></h1>
+			<h2>Gümüşhane University & King' College</h2>
+			{% else %}
+			<h1><a href="/">Uluslararası Sağlık Yönetimi Kongresi</a></h1>
+			<h2>Gümüşhane Üniversitesi & King' College</h2>
+			{% endif %}
+			</hgroup>-->
+			<nav id="global" class="clearfix">
+				{% block ustmenu %}
+				{% get_pages ust-menu as pages %}
+				<ul>
+					{% for page in pages %}
+					<li>
+						<a href="{% url 'page_detail' page.slug %}">{{ page.title }}</a>
+					</li>
+					{% endfor %}
+					<li class="language">
+						{% if LANGUAGE_CODE == 'en' %}
+						<a href="{% url 'set_language' %}?language=tr">Türkçe</a>
+						{% elif LANGUAGE_CODE == 'tr' %}
+						<a href="{% url 'set_language' %}?language=en">English</a>
+						{% endif %}
+					</li>
+				</ul>
+				{% endblock %}
+			</nav>
+		</header>
+
+		<div class=clearfix>
+			<div id=content>
+				{% block content %}
+				<article>
+					<header>
+						<h1>{% block content-header %}{{ title }}{% endblock %}</h1>
+					</header>
+					{% if messages %}
+					{% for message in messages %}
+					<p {% if message.tags %} class="{{ message.tags }}"{% endif %}>
+						{{ message }}</p>
+						{% endfor %}
+						{% endif %}
+						{% block content-inner %}
+						{% endblock %}
+				</article>
+				{% endblock %}
+				{% block extra-content %}
+				{% endblock %}
+			</div>
+
+			<aside>
+				<nav>
+					{% block solmenu %}
+					<!--<h1>{% trans 'Sempozyum' %}</h1>-->
+					{% get_pages sol-menu as pages %}
+					<ul class="links">
+						{% for page in pages %}
+						<li>
+							<a href="{% url 'page_detail' page.slug %}">{{ page.title }}</a>
+						</li>
+						{% endfor %}
+					</ul>
+					{% endblock %}
+				</nav>
+
+				{% if user.is_authenticated %}
+				<nav>
+					<h1>{% trans 'Profilim' %}</h1>
+					<p>
+						{% trans 'Hoş geldin' %}, <strong>{{ user }}</strong>,
+					</p>
+					<ul class="links">
+						<li>
+							<a href="{#% url 'registration_profile' %#}">{% trans 'Kayıt Bilgileri' %}</a>
+						</li>
+						<li>
+							<a href="{% url 'abstract_list' %}">{% trans 'Gönderdiğim Özetler' %}</a>
+						</li>
+						<li>
+							<a href="{% url 'submit_abstract' %}">{% trans 'Özet Gönderimi' %}</a>
+						</li>
+						<!--<li><a href="{% url 'abstract_list' %}">Submit Full Paper</a></li>
+						<li><a href="{#% url 'accommodation' %#}">Accommodation</a></li> -->
+						<li>
+							<a href="{% url 'auth_password_change' %}">{% trans 'Şifre Değiştir' %}</a>
+						</li>
+						<li>
+							<a href="{% url 'auth_logout' %}">{% trans 'Çıkış Yap' %}</a>
+						</li>
+					</ul>
+				</nav>
+				{% else %}
+				<section id="kayit">
+					<h1><a href="{% url 'register' %}">{% trans 'Kayıt Ol' %}</a></h1>
+				</section>
+				<section id="loginbox">
+					<h1>Giriş</h1>
+					<form action="{% url 'auth_login' %}" method="post">
+						<label for="id_username">{% trans 'Kullanıcı Adı' %}</label>
+						<input id="id_username" type="text" name="username" maxlength="30" />
+						<label for="id_password">{% trans 'Şifre' %}</label>
+						<input type="password" name="password" id="id_password" />
+						{% csrf_token %}
+						<input class="submit" type="submit" value="Login">
+					</form>
+					<p>
+						<a href="{% url 'auth_password_reset' %}">{% trans 'Parola Sıfırla' %}</a>
+					</p>
+				</section>
+				{% endif %}
+			</aside>
+		</div>
+
+		<footer class=clearfix>
+			<p class=copyright>
+				Copyright &copy; <strong>{% trans 'Gümüşhane Üniversitesi Bilgi İşlem Daire Başkanlığı' %}</strong>.
+			</p>
+		</footer>
+
+	</body>
+</html>

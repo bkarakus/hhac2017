@@ -1,0 +1,115 @@
+{% load staticfiles %}
+{% load url from future %}
+{% load seo_tags %}
+{% load i18n %}
+{% get_current_language as LANGUAGE_CODE %}
+<!DOCTYPE html>
+<html lang="{{ LANGUAGE_CODE }}">
+    <head>
+        <meta charset="utf-8" />
+        {% block seo %}
+  			<title>{% block head_title_base %}{% seo title for site %} | {% block head_title %}{% endblock %}{% endblock %}</title>
+        	<meta name="description" content="{% block description %}{% seo description for site %}{% endblock %}" />
+	        <meta name="keywords" content="{% block keywords %}{% seo keywords for site %}{% endblock %}" />
+        {% endblock %}
+        
+        {% block viewport %}
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        {% endblock %}
+
+        {% block style_base %}
+        	{% block extra_style %}{% endblock %}
+            <link href="{% static "pinax/css/responsive.css" %}" rel="stylesheet">
+            <link href="{% static "bootstrap/css/bootstrap.css" %}" rel="stylesheet">
+            <link href="{% static "font-awesome/css/font-awesome.css" %}" rel="stylesheet">
+            <link href="{% static "datetimepicker/jquery.datetimepicker.css" %}" rel="stylesheet">
+            <link href="{% static "pinax/css/theme.css" %}" rel="stylesheet">
+        {% endblock %}
+
+        {% block html5shim %}
+            <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+            <!--[if lt IE 9]>
+                <script src="{% static "pinax/js/html5shiv.js" %}"></script>
+            <![endif]-->
+        {% endblock %}
+
+        {% block extra_head_base %}
+            {% block extra_head %}{% endblock %}
+        {% endblock %}
+    </head>
+    <body class="{% block body_class %}{% endblock %}" id="{% block body_id %}{% endblock %}">
+        <div class="{% block wrapper_class %}{% endblock %}">
+
+            {% block topbar_base %}
+                <header>
+                    <div class="container">
+	                    <div class="row">
+	                    	<div id="logo" class="clearfix">
+								<img src="{{STATIC_URL}}images/banner_{{LANGUAGE_CODE}}.png?v=1" width="960" height="133"/>
+							</div>
+	                    </div>
+	                    <div class="row">
+	                        {% include 'menu.html' %}
+	                    </div>
+                    </div>
+                </header>
+            {% endblock %}
+			{% block slideshow_base %}
+			 <div class="container">
+               	<div class="row">
+               		
+               		<div class="col-md-12">
+               		
+               		</div>
+               	</div>
+            </div>
+			{% endblock %}
+            {% block body_base %}
+                <section id="content_body">
+                    <div class="container">
+                    	<div class="row">
+                    		{% block content-base %}
+	                    	<div class="col-md-9" style="padding:0px">
+	                    		{% block slideshow %}{% endblock %}
+	                    		<div id="content">
+	                    		{% block title_base %}<h1>{% block title%}{% endblock %}</h1>{% endblock %}
+		                        {% include "_messages.html" %}
+		                        {% block content %}
+		                        {% endblock %}
+		                        </div>
+	                        </div>
+	                        <div class="col-md-3" id="sidebar">
+	                        	{% include "sidebar.html" %}
+	                        </div>
+	                        {% endblock %}
+                        </div>
+                    </div>
+                </section>
+            {% endblock %}
+
+            {% block footer_base %}
+                <footer>
+                    <div class="container">
+                        {% block footer %}
+                        <center>
+                        Copyright © {% trans "Gümüşhane Üniversitesi Bilgi İşlem Daire Başkanlığı." %}
+                        </center>
+                        {% endblock %}
+                    </div>
+                </footer>
+            {% endblock %}
+        </div>
+
+        {% block script_base %}
+            <script src="{% block jquery_src %}{% static "jquery/js/jquery-2.1.3.min.js" %}{% endblock %}"></script>
+            <script src="{% static "js/bootstrap.min.js" %}"></script>
+            <script src="{% static "datetimepicker/jquery.datetimepicker.js" %}"></script>
+            <script src="{% static "pinax/js/theme.js" %}"></script>
+            {% block extra_script %}{% endblock %}
+        {% endblock %}
+
+        {% block extra_body_base %}
+            {% block extra_body %}{% endblock %}
+        {% endblock %}
+    </body>
+</html>

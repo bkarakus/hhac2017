@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% load i18n %}
+{% load bootstrap %}
+
+{% block title %}{% trans "Registration and Payment" %}{% endblock %}
+
+{% block content %}
+<form method="post" action="" class="form-horizontal">
+    {% csrf_token %}
+    {{ form|bootstrap_horizontal:"col-sm-3" }}
+    <div class="form-group">
+		<div class="col-sm-offset-3 col-sm-9">
+	      <button type="submit" class="btn btn-primary">{% trans "Submit" %}</button>
+	    </div>
+	</div>
+</form>
+{% endblock %}

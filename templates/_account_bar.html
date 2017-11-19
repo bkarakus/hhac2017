@@ -1,0 +1,36 @@
+{% load i18n %}
+{% load url from future %}
+{% load bootstrap %}
+
+{% if user.is_authenticated %}
+<nav>
+	<h1>{% trans 'My Profile' %}</h1>
+	<p>
+		{% trans 'Welcome' %}, <strong>{{ user }}</strong>,
+	</p>
+	<ul class="links">
+		<li>
+			<a href="{% url 'registration_profile' %}">{% trans 'User Information' %}</a>
+		</li>
+		<li>
+			<a href="{% url 'auth_password_change' %}">{% trans 'Change password' %}</a>
+		</li>
+		<li>
+			<a href="{% url 'auth_logout' %}">{% trans 'Log out' %}</a>
+		</li>
+	</ul>
+</nav>
+{% else %}
+<section id="kayit">
+	<h1><a href="{% url 'registration_register' %}">{% trans 'Register' %}</a></h1>
+</section>
+<section id="loginbox">
+	<h1>{% trans 'Log in' %}</h1>
+	<form action="{% url 'auth_login' %}" method="post">
+		{% csrf_token %}
+		{{ login_form|bootstrap }}
+		<button type="submit" class="btn btn-primary">{% trans "Log in" %}</button>
+		<a href="{% url 'auth_password_reset' %}" class="btn btn-danger"><small>{% trans 'Reset password' %}</small></a>
+	</form>
+</section>
+{% endif %}
