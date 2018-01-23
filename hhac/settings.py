@@ -31,7 +31,7 @@ DEBUG = False
 
 TEMPLATE_DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'ussamkongre.com','www.ussamkongre.com']
+ALLOWED_HOSTS = ['localhost', 'ussamkongre.com','www.ussamkongre.com', 'conference.ussam.co']
 
 
 # Application definition
